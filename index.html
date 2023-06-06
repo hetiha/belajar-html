@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warmindo - Toko Makanan Hangat</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Warmindo</h1>
+    <nav>
+      <table>
+        <tr>
+          <td><a href="#">Beranda</a></td>
+          <td><a href="#">Produk</a></td>
+          <td><a href="#">Keranjang</a></td>
+          <td><a href="#">Tentang Kami</a></td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Selamat datang di Warmindo</h2>
+    <p>Nikmati hidangan hangat kami untuk menemani hari Anda.</p>
+    <a href="#" class="btn">Lihat Menu</a>
+  </section>
+
+  <section id="produk">
+    <h2>Produk Kami</h2>
+    <div class="produk-item">
+      <input type="file" accept="image/*" onchange="showImagePreview(event)">
+      <img src="" alt="Preview" id="preview1" class="produk-img">
+      <h3>Mie Ayam</h3>
+      <p>Rp 15.000</p>
+      <a href="#" class="btn">Beli Sekarang</a>
+    </div>
+    <div class="produk-item">
+      <input type="file" accept="image/*" onchange="showImagePreview(event)">
+      <img src="" alt="Preview" id="preview2" class="produk-img">
+      <h3>Nasi Goreng</h3>
+      <p>Rp 20.000</p>
+      <a href="#" class="btn">Beli Sekarang</a>
+    </div>
+    <!-- Tambahkan elemen produk lainnya di sini -->
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Warmindo. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
